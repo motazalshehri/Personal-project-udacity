@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-content {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  color: #edf0f1;
+  background-color: #202020;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-content:hover,
+.blog-name:hover {
+  color: #3cc5e7;
+}
+
+.blog-name {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400px;
+  font-size: 30px;
+  color: #edf0f1;
+  background-color: #202020;
+  text-decoration: none;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400px;
+  background-color: #00000036;
+}
+
+p {
+  color: #666;
+}
+
+/* Subscribe Box */
+#subscribe-css {
+  position: relative;
+  padding: 20px 0;
+  background: #000;
+  overflow: hidden;
+}
+.subscribe-wrapper {
+  color: #fff;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+  text-transform: none;
+  font-weight: 400;
+  width: 100%;
+}
+.subscribe-form {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+form.subscribe-form {
+  clear: both;
+  display: block;
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+}
+.subscribe-css-email-field {
+  background: #415471;
+  color: #ccc;
+  margin: 10px 0;
+  padding: 15px 20px;
+  width: 35%;
+  border: 0;
+}
+.subscribe-css-email-button {
+  background: #3cc091;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 14px 30px;
+  margin-left: 15px;
+  text-transform: none;
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+  transition: all 0.6s;
+}
+.subscribe-css-email-button:hover {
+  background: #37b185;
+}
+#subscribe-css p.subscribe-note {
+  margin: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180%;
+  font-weight: 400;
+  line-height: normal;
+}
+#subscribe-css p.subscribe-note span {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+#subscribe-css p.subscribe-note span.itatu {
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: lowercase;
+}
+
+/* Footer */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #000;
+  color: #ffff;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+  color: #3cc5e7;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
